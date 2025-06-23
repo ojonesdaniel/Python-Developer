@@ -1,4 +1,6 @@
-cpf = input("Digite seu CPF?")
+### String
+
+pf = input("Digite seu CPF?")
 
 cpf = cpf.strip()
 cpf = cpf.replace('.', '')
@@ -19,3 +21,5 @@ if nome and email:
         print('cadastro concluído!')
 else:
     print('Digite seu nome e email corretamente')
+
+### Listas
